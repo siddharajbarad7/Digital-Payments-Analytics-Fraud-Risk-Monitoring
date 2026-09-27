@@ -466,7 +466,6 @@ The analysis enables stakeholders to:
 
 # Project Structure
 
-```text
 Digital Payments Fraud Intelligence/
 │
 ├── README.md
@@ -477,10 +476,8 @@ Digital Payments Fraud Intelligence/
 ├── Database/
 │   ├── Raw/
 │   │   └── upi_transactions_2024.csv
-│   │
 │   ├── clean/
 │   │   └── clean.csv
-│   │
 │   └── analytics/
 │       ├── fraud_by_category.csv
 │       ├── fraud_by_state.csv
@@ -497,10 +494,20 @@ Digital Payments Fraud Intelligence/
 │       ├── 01_load_to_mysql.ipynb
 │       └── SQL Analytics Master Layer with SQLAlchemy.ipynb
 │
-└── image/
-    ├── HR_days_trend.png
-    ├── montly tranction value trend.png
-    └── montly UPI trend.png
+├── image/
+│   ├── HR_days_trend.png
+│   ├── montly tranction value trend.png
+│   └── montly UPI trend.png
+│
+└── screenshot/
+    ├── page_01_executive_payments_overview.png
+    ├── page_02_transaction_payment_performance.png
+    ├── page_03_customer_participant_intelligence.png
+    ├── page_04_fraud_intelligence.png
+    ├── page_05_risk_monitoring.png
+    ├── page_06_bank_state_performance.png
+    ├── page_07_operational_failure_analysis.png
+    └── page_08_executive_recommendations.png
 ```
 
 ---
