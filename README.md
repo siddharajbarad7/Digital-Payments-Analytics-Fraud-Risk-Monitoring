@@ -8,15 +8,7 @@
 
 ---
 
-## 👤 Author
 
-**Siddharaj Barad**  
-Data Analytics | Python | SQL | Power BI | Excel
-
-- GitHub: https://github.com/siddharajbarad7
-- Project Repository: https://github.com/siddharajbarad7/Digital-Payments-Analytics-Fraud-Risk-Monitoring
-
----
 
 ## 📌 Project Overview
 
@@ -585,11 +577,12 @@ The project demonstrates how a Data Analyst can combine **Python, SQL and Power 
 This is a portfolio analytics project. The risk scoring framework is designed for analytical monitoring and demonstration purposes and should not be interpreted as a production financial fraud-detection or automated decision-making system.
 
 ---
-
 ## 👤 Author
 
-**Siddharaj Barad**
+**Siddharaj Barad**  
+Data Analytics | Python | SQL | Power BI | Excel
 
-Built as a practical Data Analytics portfolio project demonstrating end-to-end work across **data cleaning, exploratory analysis, SQL analytics, risk monitoring and Power BI business intelligence**.
+- GitHub: https://github.com/siddharajbarad7
+- Project Repository: https://github.com/siddharajbarad7/Digital-Payments-Analytics-Fraud-Risk-Monitoring
 
-**GitHub:** https://github.com/siddharajbarad7
+---
