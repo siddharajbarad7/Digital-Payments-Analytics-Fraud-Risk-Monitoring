@@ -75,23 +75,46 @@ The final solution combines Python-based data preparation, SQL analytics, an int
 ## 🔄 End-to-End Data Pipeline
 
 ```text
-Raw UPI Dataset
-      ↓
-Data Profiling & Quality Validation
-      ↓
-Python / Pandas Cleaning & EDA
-      ↓
-Feature Engineering
-      ↓
-MySQL + SQLAlchemy
-      ↓
-SQL Analytics Layer
-      ↓
-Power BI Data Model & DAX
-      ↓
-Interactive Dashboard
-      ↓
-Business Insights & Risk Monitoring
+                    ┌─────────────────────┐
+                    │   Raw UPI Dataset   │
+                    │    250K Records     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Data Profiling &    │
+                    │ Quality Validation  │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Python / Pandas     │
+                    │ Cleaning & EDA      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Feature Engineering │
+                    │ Risk Indicators     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ MySQL + SQLAlchemy  │
+                    │ SQL Analytics Layer │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Power BI            │
+                    │ Dashboard           │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Business Insights   │
+                    │ & Risk Monitoring   │
+                    └─────────────────────┘
 ```
 
 ---
